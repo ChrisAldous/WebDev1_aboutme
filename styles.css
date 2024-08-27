@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image {
+    width: 432px;
+    height: 288px;
+    float: right;
+}
+
+.bookList li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bookList li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.haiku p {
+    margin-left: 25px;
+}
+
+table {
+    border: 1px solid black;
+    width: 75%;
+    table-layout: fixed;
+}
+
+table #firstClass {
+    background-color: aqua;
+}
+
+table #secondClass {
+    background-color: rgb(0, 179, 255);
+}
+
+table #thirdClass {
+    background-color: rgb(0, 85, 255);
+}
+
+table #fourthClass {
+    background-color: rgb(128, 81, 210);
+}
+
+table #Workout {
+    background-color: rgb(0, 255, 208);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: start;
+}
